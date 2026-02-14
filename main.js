@@ -12,6 +12,7 @@ const tiolka1 = document.getElementById("tiolka1")
 const tiolka2 = document.getElementById("problemna_tiolka")
 const tiolka3 = document.getElementById("tiolka3")
 const kot = document.getElementById("kot")
+const text4 = document.getElementById("text4");
 const sound_screamer = new Audio('./sound_screamer.mp3')
 
 function checkHash() {
@@ -26,6 +27,7 @@ function checkHash() {
         tiolka2.style.display = 'none';
         tiolka3.style.display = 'none';
         kot.style.display = 'none';
+        text4.style.display = "none";
         text_2.style.display = 'block';
         gif_funny_cat.style.display = 'inline-block';
         button_daa.style.display = 'inline-block';
@@ -45,6 +47,7 @@ function checkHash() {
         tiolka2.style.display = 'inline-block';
         tiolka3.style.display = 'inline-block';
         kot.style.display = 'inline-block';
+        text4.style.display = "block";
 
     } else {
         valentinka.style.display = 'inline-block';
@@ -58,6 +61,7 @@ function checkHash() {
         tiolka1.style.display = 'none';
         tiolka2.style.display = 'none';
         tiolka3.style.display = 'none';
+        text4.style.display = "none";
         kot.style.display = 'none';
     }
 }
@@ -75,4 +79,5 @@ button_nea.addEventListener("click", () => {
 document.addEventListener('DOMContentLoaded', checkHash);
 
 // 🔥 реагування на подальшу зміну
+
 window.addEventListener('hashchange', checkHash);
