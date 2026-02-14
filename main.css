@@ -35,7 +35,7 @@ body {
     display: inline-block;
     text-align: center;
     border-radius: 20%;
-    border: 2px solid red;
+    border: 2px solid #C87679;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -124,4 +124,5 @@ body {
     top: 37%;
     left: 53%;
     transform: translate(-50%, -50%);
+
 }
